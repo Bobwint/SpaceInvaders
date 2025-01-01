@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Space Aliens</title>
+  <style>
+    body {
+      box-shadow: black 20px 10px 50px;
+      margin: 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background-color: gray;
+    }
+  </style>
+</head>
+
+<body>
+  <div style="position: relative;">
+    <p
+      style="position: absolute; z-index: 10; color: white; left: 10px; top: 10px; margin: 0; font-family: sans-serif; font-size: 14px;">
+      <span>Score:</span> <span id="scoreEl">0</span>
+    </p>
+    <canvas></canvas>
+  </div>
+  <script src="./index.js"></script>
+</body>
+
+</html>
